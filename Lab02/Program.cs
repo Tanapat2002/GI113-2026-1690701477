@@ -104,7 +104,7 @@
             Console.WriteLine($"Level: {characterLevel4}");
             Console.WriteLine($"Critical Rate: {characterCriticalRate4}");
             Console.WriteLine($"Invisible: {characterInvisible4}");
-
+            
 
 
 
