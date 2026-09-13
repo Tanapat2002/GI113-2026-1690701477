@@ -35,28 +35,24 @@
             Console.WriteLine();
 
             Console.WriteLine("----- Implicit Conversion: HP as double -----");
-
             double currentHpDouble = currentHp;
             Console.WriteLine($"HP (double): {currentHpDouble}");
 
             Console.WriteLine();
 
             Console.WriteLine("----- Exact HP Percent (no integer truncation) -----");
-
             double hpPercentExact = currentHpDouble * 100 / maxHp;
             Console.WriteLine($"HP Percent (exact): {hpPercentExact}%");
 
             Console.WriteLine();
 
             Console.WriteLine("----- Explicit Cast: Attack Power -> Display Int -----");
-
             int attackDisplay = (int)attackPower;
             Console.WriteLine($"Attack Power (int cast): {attackDisplay}");
 
             Console.WriteLine();
 
             Console.WriteLine("----- Cast vs Convert: Crit Multiplier -----");
-
             int critCast = (int)critMultiplier;
             int critConvert = Convert.ToInt32(critMultiplier);
 
